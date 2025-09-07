@@ -1,4 +1,4 @@
-# OPENLEARN.ORG.IN GENESOC TI - Education Platform
+# Vidya.ORG.IN GENESOC TI - Education Platform
 
 A complete full-stack education platform with React.js frontend and Node.js/Express backend, featuring real authentication, course management, payments, and AI-powered recommendations.
 
@@ -31,93 +31,8 @@ A complete full-stack education platform with React.js frontend and Node.js/Expr
 - npm or yarn
 - Stripe account (for payments)
 
-### Backend Setup
 
-1. **Navigate to backend directory**
-   ```bash
-   cd backend
-   ```
-
-2. **Install backend dependencies**
-   ```bash
-   npm install
-   ```
-
-3. **Configure environment variables**
-   ```bash
-   cp .env.example .env
-   ```
    
-   Edit `.env` file with your configuration:
-   ```env
-   # Database
-   MONGODB_URI=mongodb://localhost:27017/openlearn
-   
-   # JWT Secret (generate a strong secret)
-   JWT_SECRET=your_super_secret_jwt_key_here
-   
-   # Server Configuration
-   PORT=5000
-   NODE_ENV=development
-   
-   # Stripe Configuration (get from Stripe Dashboard)
-   STRIPE_SECRET_KEY=sk_test_your_stripe_secret_key
-   STRIPE_PUBLISHABLE_KEY=pk_test_your_stripe_publishable_key
-   
-   # Frontend URL
-   FRONTEND_URL=http://localhost:3000
-   ```
-
-4. **Start MongoDB**
-   ```bash
-   # If using local MongoDB
-   mongod
-   
-   # Or use MongoDB Atlas cloud database
-   ```
-
-5. **Start the backend server**
-   ```bash
-   npm run dev
-   ```
-   
-   Backend will run on `http://localhost:5000`
-
-### Frontend Setup
-
-1. **Navigate to root directory**
-   ```bash
-   cd ..
-   ```
-
-2. **Install frontend dependencies**
-   ```bash
-   npm install
-   ```
-
-3. **Create environment file**
-   ```bash
-   # Create .env file in root directory
-   echo "REACT_APP_API_URL=http://localhost:5000/api" > .env
-   ```
-
-4. **Start the frontend server**
-   ```bash
-   npm start
-   ```
-   
-   Frontend will run on `http://localhost:3000`
-
-## 📱 Demo Credentials
-
-### Student Account
-- **Email:** `student@demo.com`
-- **Password:** `password123`
-
-### Teacher Account
-- **Email:** `teacher@demo.com`
-- **Password:** `password123`
-
 ## 🏗️ Project Structure
 
 ```
@@ -273,7 +188,6 @@ Built for **GENESOC TI** hackathon by the development team.
 
 For support and questions:
 - **Email:** contact@Vidya.org.in
-- **Phone:** +91 98765 43210
 - **Website:** https://Vidya.org.in
 
 ---
